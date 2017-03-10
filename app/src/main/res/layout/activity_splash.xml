@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_8c8c8c"
+    >
+
+    <TextView
+        android:id="@+id/splash_ac_name"
+        android:layout_marginTop="260px"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="Mr Liu Frame"
+        android:textColor="@color/c_f2f2f2"
+        android:gravity="center"
+        android:textSize="60px"/>
+    <ImageView
+        android:id="@+id/splash_ac_image"
+        android:layout_below="@+id/splash_ac_name"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/icon_android"/>
+    <TextView
+        android:id="@+id/splash_ac_time"
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:text="time:three"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/c_f2f2f2"
+        android:gravity="center"
+        android:background="@drawable/cheek"
+        android:layout_marginBottom="300px"
+        android:layout_above="@+id/splash_ac_email"
+        android:textSize="50px"/>
+    <TextView
+        android:id="@+id/splash_ac_email"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:text="email:liutengfeiby2013@163.com"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/c_f2f2f2"
+        android:gravity="center"
+        android:layout_above="@+id/splash_ac_own"
+        android:textSize="40px"/>
+    <TextView
+        android:id="@+id/splash_ac_own"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:text="this is my own time to write"
+        android:textColor="@color/c_f2f2f2"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="40px"/>
+
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,85 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c_8c8c8c</item>
+        <item name="colorPrimaryDark">@color/c_8c8c8c</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">#ffffff</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <!--&lt;!&ndash;导航栏底色&ndash;&gt;-->
+
+
+        <!--<item name="colorPrimary">@color/accent_material_dark</item>-->
+
+        <!--&lt;!&ndash;状态栏底色&ndash;&gt;-->
+
+
+        <!--<item name="colorPrimaryDark">@color/accent_material_light</item>-->
+
+        <!--&lt;!&ndash;导航栏上的标题颜色&ndash;&gt;-->
+
+
+        <!--<item name="android:textColorPrimary">@android:color/black</item>-->
+
+        <!--&lt;!&ndash;Activity窗口的颜色&ndash;&gt;-->
+
+
+        <!--<item name="android:windowBackground">@color/material_blue_grey_800</item>-->
+
+        <!--&lt;!&ndash;按钮选中或者点击获得焦点后的颜色&ndash;&gt;-->
+
+
+        <!--<item name="colorAccent">#00ff00</item>-->
+
+        <!--&lt;!&ndash;和 colorAccent相反，正常状态下按钮的颜色&ndash;&gt;-->
+
+
+        <!--<item name="colorControlNormal">#ff0000</item>-->
+
+        <!--&lt;!&ndash;Button按钮正常状态颜色&ndash;&gt;-->
+
+
+        <!--<item name="colorButtonNormal">@color/accent_material_light</item>-->
+
+        <!--&lt;!&ndash;EditText 输入框中字体的颜色&ndash;&gt;-->
+
+
+        <!--<item name="editTextColor">@android:color/white</item>-->
+    </style>
+    <style name="Animation.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/AnimationStyle</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AnimationStyle" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/view_down_to_up_translate</item>
+        <item name="android:windowExitAnimation">@anim/view_up_to_down_translate</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="CommonDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppThemeFullscreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
